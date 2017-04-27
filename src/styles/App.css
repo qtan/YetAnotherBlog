@@ -1,0 +1,26 @@
+.flex-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100%;
+  color: #27364E;
+}
+
+.left-panel {
+  flex: 1;
+  margin: 20px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  border-color: #E5E5E5;
+  border-width: 0 1px 0 0;
+  border-style: none solid none none;
+  padding: 20px 0;
+}
+
+.right-content {
+  flex: 1;
+  margin: 20px;
+  background-color: lightblue;
+  min-width: 300px;
+}

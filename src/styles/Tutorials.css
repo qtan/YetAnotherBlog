@@ -1,0 +1,32 @@
+.left-indentation {
+    padding: 0px 25px;
+}
+
+.selected-item {
+    color: red;
+}
+
+.general-item {
+    color: #000;
+}
+
+.sub-list {
+    margin: 0.5em 0.5em 1em 1em;
+}
+
+.sub-list-title {
+    color: #A9AFB8;
+    padding: 0.6em 0;
+}
+
+.item {
+    background-color: #FFF;
+    color: #717B8B;
+    margin-left: -0.5em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+.item:hover {
+    background-color: #F7F7F7;
+}
