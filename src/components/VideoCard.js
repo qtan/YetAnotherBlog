@@ -15,4 +15,8 @@ class VideoCard extends React.Component {
   }
 }
 
+VideoCard.PropTypes = {
+  video: React.PropTypes.object
+}
+
 export default VideoCard;

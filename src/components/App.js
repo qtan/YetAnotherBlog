@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import TutorialList from './TutorialList'
+import DefaultTutorial from './DefaultTutorial'
+import { mockMenuData, mockTutorialData } from './data'
 import '../styles/App.css'
 
 class App extends Component {
@@ -7,10 +9,11 @@ class App extends Component {
     return (
       <div className="flex-container">
         <div className="left-panel">
-          <TutorialList />
+          <TutorialList data={mockMenuData}/>
         </div>
         <div className="right-content">
           <div className="markdown">
+            <DefaultTutorial data={mockTutorialData}/>
           </div>
         </div>
       </div>
