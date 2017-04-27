@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
-import '../styles/App.css';
+import React, { Component } from 'react'
 import TutorialList from './TutorialList'
-
+import '../styles/App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div className="flex-container">
         <div className="left-panel">
-        <TutorialList />
+          <TutorialList />
         </div>
         <div className="right-content">
           <div className="markdown">
-            Rich Text Document Here!
           </div>
         </div>
       </div>

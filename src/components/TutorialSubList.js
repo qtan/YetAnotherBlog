@@ -1,18 +1,11 @@
 import React from 'react'
-
 import TutorialSubListItem from './TutorialSubListItem'
-
 import '../styles/Tutorials.css'
 
 class TutorialSubList extends React.Component {
-  static propTypes = {
-    title: React.PropTypes.string,
-    items: React.PropTypes.array,
-  }
-
   renderSubListItem () {
     const { content: { items } } = this.props
-    return items.map(e => <TutorialSubListItem key={e.title} content={e} />)
+    return items.map(e => <TutorialSubListItem key={e.title} content={e} toggleable={true}/>)
   }
 
   render () {
@@ -24,6 +17,10 @@ class TutorialSubList extends React.Component {
       </div>
     )
   }
+}
+
+TutorialSubList.propTypes = {
+  content: React.PropTypes.object,
 }
 
 export default TutorialSubList
