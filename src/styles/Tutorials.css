@@ -1,32 +1,73 @@
 .left-indentation {
-    padding: 0px 25px;
+  padding: 0px 25px;
 }
 
 .selected-item {
-    color: red;
+  color: red;
 }
 
 .general-item {
-    color: #000;
+  color: #000;
 }
 
 .sub-list {
-    margin: 0.5em 0.5em 1em 1em;
+  margin: 0.5em 0.5em 1em 1em;
 }
 
 .sub-list-title {
-    color: #A9AFB8;
-    padding: 0.6em 0;
+  color: #A9AFB8;
+  padding: 0.6em 0;
 }
 
 .item {
-    background-color: #FFF;
-    color: #717B8B;
-    margin-left: -0.5em;
-    padding-bottom: 0.3em;
-    padding-top: 0.3em;
+  background-color: #FFF;
+  color: #717B8B;
+  margin-left: -0.5em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
 }
 
 .item:hover {
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
+}
+
+.default-tutorial-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: inherit;
+}
+
+.tutorial-section {
+  flex: 1;
+  padding: 0;
+  margin: 10px 0 20px 0;
+  min-width: 600px;
+}
+
+.tutorial-section-title {
+  margin: 20px 0 0 30px;
+}
+
+.video-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 20px 10px 20px;
+}
+
+.video-card {
+  margin: 20px 0 0 0;
+  width: 250px;
+  height: 180px;
+  background-color: lightgoldenrodyellow;
+  color: black;
+  box-shadow: 0 0 0.5em gray;
+}
+
+.video-card:hover {
+  box-shadow: 0 0 1em gray;
 }
